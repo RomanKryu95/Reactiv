@@ -15,6 +15,8 @@ namespace API
 {
     public class Program
     {
+        /*Почему так работает*/
+        /*Необходимо выяснить порядок запуска*/
         public static async Task Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
